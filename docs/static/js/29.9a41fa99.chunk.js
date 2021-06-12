@@ -1,0 +1,2 @@
+(this["webpackJsonpchordscore-private"]=this["webpackJsonpchordscore-private"]||[]).push([[29],{624:function(e,t,c){"use strict";c.r(t);var r=c(0),o=c(23),a=c(6);t.default=function(){var e=Object(a.f)();return Object(r.useEffect)((function(){o.a.clearAppStorage(),e.push("/"),window.location.reload()}),[e]),null}}}]);
+//# sourceMappingURL=29.9a41fa99.chunk.js.map

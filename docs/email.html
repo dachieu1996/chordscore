@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&family=Open+Sans:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css"
+    />
+  </head>
+  <body>
+    <span class="logo">Chordscore</span>
+    <div class="box">
+      <span class="box-title">인증번호 발급</span>
+      <span class="box-contents"
+        >비밀번호 찾기를 위한 인증 메일입니다.<br />
+        아래 제공된 인증번호를 비밀번호 찾기 페이지에 입력해주세요</span
+      >
+      <div class="box-code">
+        <span class="box-code-contents">375893</span>
+      </div>
+    </div>
+    <span class="additional-info">
+      본 메일은 발신용 메일로 회신이 불가능합니다.<br />
+      COPYRIGHT©CHORDSCORE. ALL RIGHTS RESERVED.
+    </span>
+  </body>
+  <style>
+    * {
+      font-family: 'Noto Sans KR', sans-serif;
+    }
+
+    html,
+    body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: rgb(247, 247, 247);
+    }
+
+    div {
+      box-sizing: border-box;
+    }
+
+    .logo {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 26px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.38;
+      letter-spacing: 0.01px;
+      color: #333333;
+      margin-bottom: 64px;
+    }
+
+    .box {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      max-width: 500px;
+      border-radius: 3px;
+      border: solid 1px #e5e4e6;
+      background-color: #ffffff;
+      padding: 50px;
+    }
+
+    .box-title {
+      font-size: 20px;
+      font-weight: bold;
+      line-height: 1;
+      letter-spacing: -0.2px;
+      color: #1e1e1e;
+      margin-bottom: 15px;
+    }
+
+    .box-contents {
+      font-size: 13px;
+      line-height: 1.92;
+      text-align: center;
+      color: #3c3b3d;
+      margin-bottom: 34px;
+    }
+
+    .box-code {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      border-radius: 4px;
+      padding: 12px 0;
+      background-color: rgba(0, 61, 150, 0.05);
+    }
+
+    .box-code-contents {
+      font-size: 16px;
+      font-weight: bold;
+      line-height: 1.5;
+      letter-spacing: 1.6px;
+      color: #000000;
+    }
+
+    .additional-info {
+      font-family: 'NanumSquare', sans-serif !important;
+      font-size: 13px;
+      line-height: 2;
+      color: #9b9a9d;
+      margin-top: 50px;
+      text-align: center;
+    }
+  </style>
+</html>
